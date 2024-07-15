@@ -20,7 +20,7 @@ const Page2 = () => {
 
 export default Page2;
 
-const PageContent2 = ({ scroll }) => {
+const PageContent2 = ({ scroll }: any) => {
   const scale = useTransform(scroll, [0, 1], [1, 0.5]);
   const borderRadius = useTransform(scroll, [0, 1], [0, 50]);
 
@@ -38,7 +38,7 @@ const PageContent2 = ({ scroll }) => {
   );
 };
 
-const PageContent3 = ({ scroll }) => {
+const PageContent3 = ({ scroll }: any) => {
   const scale = useTransform(scroll, [0, 1], [0, 1]);
   const borderRadius = useTransform(scroll, [0, 1], [100, 0]);
 

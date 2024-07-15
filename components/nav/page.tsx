@@ -3,7 +3,7 @@
 import { motion, useMotionValueEvent } from "framer-motion";
 import { useRef, useState } from "react";
 
-const Nav = ({ scroll }) => {
+const Nav = ({ scroll }: any) => {
   const navLinks = [
     { name: "THESE", href: "" },
     { name: "LINKS", href: "" },
